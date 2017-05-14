@@ -40,23 +40,11 @@ DATABASES = {
 
 **第二步：安装相应的包**
 
-```
-distribute (0.7.3)
-Django (1.9)
-django-crispy-forms (1.6.1)
-django-formtools (2.0)
-django-pure-pagination (0.3.0)
-django-reversion (2.0.8)
-django-simple-captcha (0.4.6)
-httplib2 (0.9.2)
-mysqlclient (1.3.10)
-olefile (0.44)
-Pillow (4.0.0)
-pip (9.0.1)
-setuptools (28.8.0)
-six (1.10.0)
-wheel (0.29.0)
-```
+- 首先安装Python的虚拟环境 `pip install virsualenv`
+- 建立虚拟环境目录 `virsualenv 目录名`
+- 切换到虚拟环境目录下启动  `source bin/activate`(Linux下)   win下，`cd Scripts` then  `activate.bat`
+- 执行命令安装依赖  `pip install -r requirements.txt`(requirements.txt是项目已经导出的依赖，执行安装)
+
 
 ScreenShot
 ---
